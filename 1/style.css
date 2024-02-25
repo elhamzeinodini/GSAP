@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cookie-container {
+  background-image: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  border-radius: 1rem;
+  width: 35vw;
+  color: #fff;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  /* for when the text is moved y: 50  */
+  /* contain: paint; */
+  overflow: clip;
+}
+
+.cookie {
+  margin-right: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.75rem;
+  max-width: 55ch;
+  line-height: 1.2rem;
+}
+
+button {
+  all: unset;
+  font-family: inherit;
+  background-color: #fff;
+  color: #4f2626;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+button:hover {
+  background-color: #4f2626;
+  color: #fff;
+}
